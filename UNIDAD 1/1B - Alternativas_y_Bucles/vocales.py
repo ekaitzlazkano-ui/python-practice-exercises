@@ -1,0 +1,8 @@
+frase:str = input("Dime una frase y cambiare las vocales por * : ")
+frase.lower()
+frase = frase.replace("a","*")
+frase = frase.replace("e","*")
+frase = frase.replace("i","*")
+frase = frase.replace("o","*")
+frase = frase.replace("u","*")
+print(frase)
